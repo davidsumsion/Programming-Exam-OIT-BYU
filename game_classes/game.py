@@ -4,7 +4,6 @@ class Game:
     def __init__(self) -> None:
         self.word_list = ['Roman Empire', 'Barbenheimer', 'Ken', 'rudolph', 'ski season is back', 'Christmas', 'gifts', 'Macedonia', 'Go Cougs', 'Go Utes']
         self.word = random.choice(self.word_list)
-        # self.word = self.word_list[0]
         self.num_guesses = 0
         self.num_incorrect = 0
         self.printable_man = ''
@@ -184,4 +183,3 @@ class Game:
         elif self.num_incorrect == 8:
             return_str = f"  ________________\n  |              |\n  |             ...\n  |             ...\n  |             /|\ \n  |            / | \ \n  |           /  |  \ \n  |             / \ \n  |            /   \ \n  |         __/     \__ \n  |\n  |\n  |\n__|_________________________"
         return return_str
-
