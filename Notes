@@ -2,13 +2,11 @@ Hi,
 
 Thanks for your time.
 
-Time to complete: 2 hours 45 min
+Time to complete: a little under 3 hours
 
 I found the instructions to be clear and i didn't find any ambiguity except I was confused at the number of body parts we should have drawn for the man. 
 We were told to allow the user to guess as many times until they get the correct answer, but i didn't find this very effective. 
 As a result I imlemented a "YOU WON" if you guessed the correct word before the entire man was drawn and a "YOU LOST" if the user guessed the word after the man was already drawn.
-
-I've never pushed a library to GitHub so I hope I included the random library correctly. Please let me know if I did not. I did look up how to do this. I hope that wasn't outside of the bounds of the project.
 
 I attached my outline as a PDF.
 
